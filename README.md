@@ -1,5 +1,5 @@
 # lassie
-- using lassie to scrape data from webpages
+- Using lassie to scrape data from webpages
 
 # logging my use of the library
 
