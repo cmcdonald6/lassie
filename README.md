@@ -20,14 +20,19 @@ help(lassie)
 ### program that scrapes information from a webpage based off user input (retrieve.py)
 ```python
 import lassie
+import json
 
 val = input("Enter a url: ")
 info = lassie.fetch(val)
 
-print(info)
+json_object = json.dumps(info, indent = 4)
+print(json_object)
+
+with open('result.json', 'w') as fp:
+    json.dump(json_object, fp)
 
 ```
 ## TO DO
-- export data fetched to a seperate file
+- figure out what to do with raw data
 
 read more [Here](https://lassie.readthedocs.io/en/latest/?ref=morioh.com&utm_source=morioh.com)
