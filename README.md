@@ -35,6 +35,6 @@ with open('result.json', 'w') as fp:
 ## TO DO
 - figure out what to do with raw data
 - read about [market research](https://www.scrapingdog.com/blog/web-scraping-for-market-research/#The_Different_Types_of_Data_That_Can_Be_Collected_Through_Web_Scraping)
-- go deeper into selenium
+- go deeper into [selenium](https://www.scrapingdog.com/blog/web-scraping-with-csharp/)
 
 [Lassie documentation](https://lassie.readthedocs.io/en/latest/?ref=morioh.com&utm_source=morioh.com)
